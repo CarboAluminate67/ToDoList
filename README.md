@@ -1,38 +1,24 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
+I created a cloud backed database to record a simple to-do list along with a GUI made in python. The primary purpose of this project was to practice utilizing cloud databases in my programs for easy saving and secure data management. I also practiced the creation of basic GUIs to stray from the less appealing terminal based UIs. 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
-
-{Describe the structure of the database that you created.}
+I used a google firestore database structured with one collection (the list of items), a document for each item, with 3 unique fields describing the item, due date, and completion status. 
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I completed this project in VScode with the python language. I used the firebase library to interact with my database, and the tkinter library in order to build the GUI. 
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Google Firebase](https://firebase.google.com/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Improve buttons to interact directly with each individual task rather than a master button.
+- Redesign GUI 
+- Change the way the tasks refresh on a individual basis rather than re-writing the entire list
