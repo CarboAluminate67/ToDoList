@@ -2,7 +2,7 @@
 
 I created a cloud backed database to record a simple to-do list along with a GUI made in python. The primary purpose of this project was to practice utilizing cloud databases in my programs for easy saving and secure data management. I also practiced the creation of basic GUIs to stray from the less appealing terminal based UIs. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/HvJawITty8w)
 
 # Cloud Database
 
